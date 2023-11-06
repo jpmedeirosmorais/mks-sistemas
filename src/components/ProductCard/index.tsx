@@ -23,7 +23,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
   const defaultImage = "/images/defaultImage.png";
 
   return (
-    <Container>
+    <Container data-testid="product-card">
       <ImageContainer>
         <Image
           src={imageLoaded ? product.photo : defaultImage}

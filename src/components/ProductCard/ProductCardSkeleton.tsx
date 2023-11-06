@@ -11,7 +11,7 @@ import {
 
 export const ProductCardSkeleton = () => {
   return (
-    <Container>
+    <Container data-testid="product-card-skeleton">
       <ImageContainer
         style={{
           backgroundColor: "#ccc",
