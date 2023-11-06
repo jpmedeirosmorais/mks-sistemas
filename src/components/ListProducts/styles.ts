@@ -8,6 +8,7 @@ const Container = styled.div`
 
   @media (max-width: 1200px) {
     margin-top: 6rem;
+    padding-inline: 0.5rem;
   }
 `;
 

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["mks-sistemas.nyc3.digitaloceanspaces.com"],
+    domains: [process.env.NEXT_PUBLIC_IMAGE_DOMAIN],
   },
 };
 
