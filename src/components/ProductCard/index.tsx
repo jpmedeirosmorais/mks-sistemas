@@ -26,6 +26,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
     <Container data-testid="product-card">
       <ImageContainer>
         <Image
+          data-testid="product-card-image"
           src={imageLoaded ? product.photo : defaultImage}
           objectFit="contain"
           fill
